@@ -52,6 +52,10 @@
       "baseline": "3.4.7",
       "port-version": 1
     },
+    "protobuf": {
+      "baseline": "6.33.4",
+      "port-version": 0
+    },
     "python3": {
       "baseline": "3.12.9",
       "port-version": 4
