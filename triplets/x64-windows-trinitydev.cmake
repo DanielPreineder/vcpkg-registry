@@ -30,6 +30,10 @@ if (PORT MATCHES "libyaml")
     set(VCPKG_CMAKE_CONFIGURE_OPTIONS "${VCPKG_CMAKE_CONFIGURE_OPTIONS};-DCMAKE_POLICY_VERSION_MINIMUM=3.5")
 endif ()
 
+if (PORT MATCHES "ccd")
+    set(VCPKG_LIBRARY_LINKAGE static)
+endif ()
+
 if (PORT MATCHES "curl")
     set(VCPKG_LIBRARY_LINKAGE static)
 endif ()
