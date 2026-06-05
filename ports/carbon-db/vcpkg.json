@@ -1,0 +1,29 @@
+{
+  "name": "carbon-db",
+  "version": "2.3.1",
+  "description": "Python exposure for SQL DB Driver",
+  "supports": "windows & x64",
+  "dependencies": [
+    {
+      "name": "carbon-blue",
+      "version>=": "4.2.0"
+    },
+    {
+      "name": "ccp-debug-info",
+      "host": true,
+      "version>=": "1.0.1"
+    },
+    {
+      "name": "msoledbsql",
+      "version>=": "18.1.0#1"
+    },
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
