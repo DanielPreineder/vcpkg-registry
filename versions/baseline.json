@@ -156,6 +156,10 @@
       "baseline": "3.4.7",
       "port-version": 1
     },
+    "libnestegg": {
+      "baseline": "2018-08-09",
+      "port-version": 0
+    },
     "msoledbsql": {
       "baseline": "18.1.0",
       "port-version": 0
