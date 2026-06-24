@@ -144,9 +144,17 @@
       "baseline": "2021-04-14",
       "port-version": 1
     },
+    "fxc": {
+      "baseline": "10.1",
+      "port-version": 0
+    },
     "gettext-libintl": {
       "baseline": "0.22.5",
       "port-version": 1
+    },
+    "granny": {
+      "baseline": "2.12.0.14",
+      "port-version": 0
     },
     "greenlet": {
       "baseline": "3.0.3",
